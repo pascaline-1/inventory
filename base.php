@@ -1,0 +1,1 @@
+<?php $baseurl = "http://localhost/stock/"; ?>
