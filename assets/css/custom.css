@@ -1,0 +1,58 @@
+.btn-curve {
+	border-radius: 19px;
+}
+.xs-hidden {
+    display: none !important;
+}
+.flexedspaced {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px
+}
+.flexedcentered {
+	display: flex;
+	justify-content: center
+}
+.panel-topborder-green {
+    border-top: 4px solid #00acac;
+}
+.w-100 {
+	width: 100px
+}
+.w-150 {
+	width: 150px
+}
+.width-half-full {
+	width: 50%
+}
+.hidden-xxs {
+	display: inline-block !important;
+}
+@media (max-width:991px){.xs-hidden{display:inline-block !important;}}
+@media (max-width:207px){.hidden-xxs{display:none !important;}}
+@media (max-width:412px){
+	.width-half-full {
+		width: 100%
+	}
+}
+@media (min-width:500px){
+	.small-modal {
+		margin: auto;
+		width: 500px
+	}
+}
+@media (max-width:300px){
+	.flexedspaced {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.flexedspaced .w-100 {
+		width: 100%;
+		margin-top: 10px
+	}
+	.flexedspaced .w-150 {
+		width: 100%;
+		margin-top: 10px
+	}
+}
